@@ -738,8 +738,8 @@ position: relative;
     /* background-color: red; */
 }
 
-.picture{
-    height:78px ;
+.picture {
+    height: 78px;
     width: 180px;
 }
 
@@ -1091,6 +1091,13 @@ gap: 8px,12px; */
     margin-top: 15px;
 }
 
+/* .symboite{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 215px;
+} */
+
 .order {
 
     /* width: 191px;
@@ -1383,9 +1390,18 @@ gap: 8px,12px; */
 
 /* -----TAB---- */
 @media (max-width:950px) {
-    body{
+    body {
         overflow-x: hidden;
     }
+
+    .symboite{
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        width: 100%;
+
+    }
+    
 
     .mother {
         display: none;
@@ -1430,8 +1446,7 @@ gap: 8px,12px; */
         /* justify-content: space-between; */
         padding-top: 7.8px;
         padding-left: 16px;
-        gap: 3px
-        ;
+        gap: 3px;
     }
 
     .overall {
@@ -2297,6 +2312,9 @@ gap: 8px,12px; */
 
 /* ----MOBILE---- */
 @media (max-width:650px) {
+    body {
+        overflow-x: hidden;
+    }
 
     .tImgDiv {
         position: absolute;
@@ -2405,7 +2423,7 @@ gap: 8px,12px; */
 
     .spy {}
 
-    
+
     .blume {
         position: absolute;
         bottom: 15px;
@@ -2461,7 +2479,7 @@ gap: 8px,12px; */
         font-size: 5px;
         color: #FFFFFF;
     }
-    
+
     .elemental {
         font-weight: 600;
         font-size: 9px;
@@ -2526,7 +2544,7 @@ gap: 8px,12px; */
     }
 
 
-    
+
     .eighty {
         font-weight: 600;
         font-size: 4px;
@@ -2541,7 +2559,10 @@ gap: 8px,12px; */
 
 /* ---SMALLER SCREEN---- */
 @media (max-width:365px) {
-    
+    body {
+        overflow-x: hidden;
+    }
+
     .tImgDiv {
         top: 34px;
         left: 24px;
@@ -2567,14 +2588,14 @@ gap: 8px,12px; */
         border: 1.5px solid #F3A218;
         font-size: 6px;
         background-color: #F3A218;
-    
+
     }
 
     .picture {
         height: 25px;
         width: 39px
-    }   
-    
+    }
+
     .fast {
         background-color: #FBBC05;
         border: 1.5px solid #FBBC05;
@@ -2607,6 +2628,7 @@ gap: 8px,12px; */
         font-size: 12px;
         margin-bottom: 0;
     }
+
     .crate {
 
         font-size: 12px;
@@ -2626,9 +2648,9 @@ gap: 8px,12px; */
         width: 137px;
     }
 
-    .wire{
+    .wire {
         position: absolute;
-        bottom:13px;
+        bottom: 13px;
         left: 0;
     }
 
@@ -2655,6 +2677,7 @@ gap: 8px,12px; */
         display: flex;
         align-items: center;
     }
+
     .spy {
         position: absolute;
         bottom: 11px;
@@ -2695,7 +2718,7 @@ gap: 8px,12px; */
         font-weight: 600;
         line-height: 24px;
     }
-    
+
     .divOnes {
         bottom: 12px;
         display: flex;
@@ -2779,7 +2802,7 @@ gap: 8px,12px; */
         height: 169px;
         width: 141px;
     }
-    
+
     .everything {
         display: grid;
         gap: px;
