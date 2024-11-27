@@ -1,6 +1,7 @@
 const Menu = document.querySelector('.migdiv')
-const MenuDiv = document.querySelector('.menuMobile')
+const MenuDiv = document.querySelector('.menuHambuger')
 const closeMenu = document.querySelector('.pitdiv')
+
 
 
 Menu.addEventListener('click',name)
