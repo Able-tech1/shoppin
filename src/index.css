@@ -653,6 +653,9 @@ position: relative;
     color: #FFFFFF;
     margin: 0;
 }
+.migdiv{
+    display: none;
+}
 
 .fin {
     position: relative;
@@ -662,6 +665,10 @@ position: relative;
     align-items: flex-start;
     justify-content: flex-end;
 
+}
+
+.menuMobile{
+    display: none;
 }
 
 .day {
@@ -1387,6 +1394,10 @@ gap: 8px,12px; */
     display: flex;
     justify-content: space-between;
 }
+.show{
+    display: none;
+}
+
 
 /* -----TAB---- */
 @media (max-width:950px) {
@@ -1401,7 +1412,112 @@ gap: 8px,12px; */
         width: 100%;
 
     }
+    .migdiv{
+        display:  block;
+    }
+
+    .hideMenu{
+        display: none;
+    }
     
+    .menuHambuger{
+        display: flex;
+        justify-content: flex-start;
+        position: fixed;
+        top:0;
+        left: 0;
+        right: 0;
+        z-index: 10;
+        backdrop-filter: blur(20px);
+        background-color: rgba(255, 255, 255, 0.4);
+        height: 100vh;
+    }
+
+    .menuMobile{
+        background-color: rgb(248, 239, 239);
+        min-height: 100%;
+        width:300px;
+        /* position: absolute; */
+        /* z-index: 10; */
+        /* backdrop-filter: blur(20px);
+        background-color: rgba(255, 255, 255, 0.4); */
+        display: block;
+        
+    }
+
+    .show{
+        display: none;
+    }
+
+    .pitdiv{
+        color: #667185;
+        font-size: 20px;
+    }
+    .myql{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 10px;
+    }
+
+   .myfruit{
+    padding-left:20px;
+   }
+   .mentdiv{
+    padding: 20px;
+   }
+
+   .searchInput {
+    padding: 8px 12px;
+    width: 227px;
+    border-radius: 6px;
+    border: 1px solid #D0D5DD;
+    padding-left: 36px;
+}
+
+.Search {
+    position: relative;
+    margin-left:10px ;
+}
+
+.samplediv{
+    gap: 54px;
+    justify-content: space-between;
+}
+
+.leveldiv{
+    margin-top: 20px;
+    color: #FFFFFF;
+    background-color: #2F945C;
+    border: 1.5px solid#2F945C;
+    border-radius: 6px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 24px;
+    padding-left: 24px;
+    height: 56px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 10px;
+}
+
+.bottom {
+    color: #2F945C;
+    background-color: #FFFFFF;
+    border: 1.5px solid #2F945C;
+    border-radius: 6px;
+    font-family: "inter", sans-serif;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
 
     .mother {
         display: none;
